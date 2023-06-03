@@ -1,0 +1,91 @@
+body {
+    background-color: #1c1c1c;
+    color: #ffffff;
+}
+
+.border-box {
+    padding: 2rem;
+    background-color: #23252C;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container {
+    width: 315px; 
+    background-color: #1A1B21; 
+    font-family: 'Wix Madefor Display', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.akshat--img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+h1 {
+    font-size: 23px;
+    text-align: center;
+    margin: 1rem 0 0 0;
+}
+
+h4 {
+    color: #F3BF99;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    margin: 0;
+}
+
+.btn-section {
+    display: flex;
+    padding: 1rem 0 0 0;
+    margin: 0 1rem;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+button {
+    border: 1px solid #D1D5DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    width: 115px;
+    height: 32px;
+    border-radius: 6px;
+}
+
+button > span { 
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #374151;
+}
+
+.text-section {
+    text-align: left;
+    margin: 1.5rem 2.4rem;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+    color: #DCDCDC;
+}
+
+.text-section > h4 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background-color: #2c3035;
+    border-radius: 0 0 10px 10px;
+    height: 64px;
+}
